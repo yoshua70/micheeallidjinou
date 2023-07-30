@@ -9,9 +9,7 @@
 	});
 
 	function toggle() {
-		console.log('Before:', darkMode);
 		darkMode = !darkMode;
-		console.log('After', darkMode);
 
 		darkMode
 			? document.documentElement.classList.add('dark')
