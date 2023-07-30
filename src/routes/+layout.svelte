@@ -8,10 +8,10 @@
 	<title>Michée Allidjinou</title>
 	<meta name="description" content="" />
 </svelte:head>
-<body class="dark:bg-slate-950 dark:text-white flex flex-col">
+<body class="dark:bg-slate-950 dark:text-white flex flex-col min-h-screen">
 	<Navbar />
-	<div>
-		<slot />
-	</div>
+
+	<slot />
+
 	<Footer />
 </body>
